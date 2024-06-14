@@ -1,0 +1,18 @@
+{
+  'users_api': {
+    'name': 'randomuser',
+    'url': 'https://randomuser.me/api/?results=1',
+    'doc': 'https://randomuser.me'
+  },
+
+  'kafka': {
+    'topic': 'users',
+    'socket':'192.168.29.28:9092'
+  },
+
+  'cassandra': {
+    'keyspace': 'spark_streaming',
+    'table': 'random_names',
+    'host': '192.168.29.28'
+  }
+}
