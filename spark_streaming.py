@@ -6,6 +6,7 @@ from utils.utils import CONFIG
 
 logging.basicConfig(
     level=logging.INFO,
+    filename="main.log",
     format='%(asctime)s:%(funcName)s:%(levelname)s:%(message)s'
 )
 
